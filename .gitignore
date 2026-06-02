@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Environment files
+.env
+# Build output
+dist/
+# Prisma
+prisma/*.db
+# Expo
+.expo/
+.expo-shared/
+# React Native
+android/
+ios/
+# Next.js
+.next/
+out/
+# Misc
+.DS_Store

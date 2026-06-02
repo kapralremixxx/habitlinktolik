@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "HabitLink",
+    "slug": "habitlink",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.example.habitlink",
+      "supportsTablet": true,
+      "googleServicesFile": "GoogleService-Info.plist",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.example.habitlink",
+      "googleServicesFile": "google-services.json",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "YOUR_EAS_PROJECT_ID"
+      }
+    }
+  }
+}
